@@ -46,11 +46,7 @@ module.exports = {
                 "react-dom": {
                     singleton: true,
                     requiredVersion: dependencies["react-dom"],
-                },
-                "web-vitals": {
-                    singleton: true,
-                    requiredVersion: dependencies["web-vitals"],
-                },
+                }
             },
         }),
     ],

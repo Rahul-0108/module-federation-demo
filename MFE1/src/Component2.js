@@ -1,7 +1,8 @@
 import React from 'react';
+import { Button } from "@itwin/itwinui-react";
 function Component2() {
   return (
-    <div>{"This is component 2"}</div>
+    <div><Button>55</Button>{"This is component 2.."}</div>
   );
 }
 
