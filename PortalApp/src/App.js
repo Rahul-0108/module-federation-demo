@@ -9,12 +9,11 @@ const Component1 = lazy(() => import('MFE5/Component1'));
 function App() {
   return (
     <div>
-      {/* <Button /> */}
+      <Component5 />
 
       <Suspense fallback={<div>Loading Component1...</div>}>
         <Component1 text="Text coming from Portal App" />
       </Suspense>
-      <Component5 />
       <div className="container">Other parts of Portal page</div>
     </div>
   );
